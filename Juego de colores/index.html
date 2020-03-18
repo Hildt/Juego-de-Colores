@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adivina el color </title>
+    <link rel="StyleSheet" HREF="estilo.css" type="text/css">
+</head>
+<body>
+
+    <center>
+    
+
+<div id='recuadroN1'> 
+    <h2> Guess the color </h2>
+        <h1> Color </h1>
+</div>
+
+<div id='BarraDeDificultades'>
+    <input type="button" onclick="location.reload()" id="New" value='New Colors'> 
+    <input type="button" onclick="botonEasy()" id='Easy' value="Easy">
+    <input type="button" onclick="botonHard()" id='Hard' value="Hard">
+</div>
+
+
+<div id='cuadros'>
+
+      <canvas id="cuadro1" onclick="compara(id)"></canvas> 
+      <canvas id="cuadro2" onclick="compara(id)"></canvas>
+      <canvas id="cuadro3" onclick="compara(id)"></canvas>
+      
+      <br/> 
+      
+      <canvas id="cuadro4" onclick="compara(id)"></canvas>
+      <canvas id="cuadro5" onclick="compara(id)"></canvas>
+      <canvas id="cuadro6" onclick="compara(id)"></canvas>
+      
+      <br/> 
+          
+      <canvas id="cuadro7" onclick="compara(id)"></canvas>
+      <canvas id="cuadro8" onclick="compara(id)"></canvas>
+      <canvas id="cuadro9" onclick="compara(id)"></canvas>
+
+
+</div>
+    
+</center>
+    
+
+<script src="script.js"> </script>
+</body>
+</html>
